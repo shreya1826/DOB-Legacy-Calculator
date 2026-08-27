@@ -5,6 +5,10 @@ the 7 "Life Factors" (Genetic Inheritance, Constitutional Vitality, Mental
 Patterns, Intellectual Capacity, Emotional Foundation, Spiritual Lineage,
 Soul Connections) split between Mother and Father, per the reference sheet.
 
+## Live application
+
+Open the deployed application at [dob-legacy-calculator.vercel.app](https://dob-legacy-calculator.vercel.app).
+
 ## How the numbers are calculated (read this before submitting)
 
 The supplied spreadsheet gives each factor a fixed `[Minimum, Maximum]` band
@@ -62,8 +66,9 @@ npm run build
 This produces a static `dist/` folder. To share a live link, the fastest
 options are:
 
-- **Vercel**: `npx vercel` from this folder (or drag-and-drop `dist/` at
-  vercel.com if you don't want the CLI).
+- **Vercel**: the production deployment is available at
+  [dob-legacy-calculator.vercel.app](https://dob-legacy-calculator.vercel.app).
+  To deploy updates from this folder, run `npx vercel --prod`.
 - **Netlify**: drag-and-drop the `dist/` folder at app.netlify.com/drop.
 - **GitHub Pages**: push this folder to a repo, then serve `dist/` via
   Pages (or run `npm run build` in a GitHub Action).
